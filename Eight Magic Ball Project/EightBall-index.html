@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Eight Ball MAGIC Fortune</title>
+</head>
+<body>
+    <h1>Eight Ball MAGIC Fortune</h1>
+    <div class="card">
+    <form id="fortuneForm" method="post">
+        <section>
+            <label for="userName">Enter Your Name:</label>
+            <input type="text" name="userName" id="userNameInput" placeholder="Enter Name" value="">
+        </section>
+        <section>
+            <label for="userQuestion">Enter Your Question:</label>
+            <input type="text" name="userQuestion" id="userQuestionInput" placeholder="Enter Question" value="">
+        </section>
+        <section>
+            <label for="randomNumber">Enter Random Number:</label>
+            <input type="number" name="randomNumber" id="randomNumberInput" min="1" max="8" placeholder="Enter Number" value="">
+        </section>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+    <div id="greeting"></div>
+    <div id="user-question"></div>
+    <div id="eightBall"></div>
+    <script src="EightBall.js"></script>
+</body>
+</html>

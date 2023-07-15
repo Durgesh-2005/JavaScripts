@@ -1,0 +1,53 @@
+/* Center the form */
+h1{
+    text-align: center;
+}
+#fortuneForm {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Style the form elements */
+  #fortuneForm section {
+    margin-bottom: 20px;
+  }
+  
+  #fortuneForm label {
+    display: block;
+    color: #333;
+  }
+  
+  #fortuneForm input[type="text"],
+  #fortuneForm input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  /* Style the submit button */
+  #fortuneForm button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #fortuneForm button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the output sections */
+  #greeting, #eightBall,#user-question {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
